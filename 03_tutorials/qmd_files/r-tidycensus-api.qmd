@@ -59,7 +59,9 @@ To get that for the Census, you need to [apply for an API key with the Census Bu
 In the code block below, replace YOUR KEY HERE with your key you get by email.  It's a long string of letters and numbers, like this: 549950d36c22ff16455fe196bbbd01d63cf. Don't use this one. It won't work. Use your own. 
 
 ```{r}
-census_api_key("549950d36c22ff16455fe196bbbd01d63cfbe6cf", install=TRUE, overwrite = TRUE)
+census_api_key("PUT YOUR OWN KEY HERE!!!", install=TRUE, overwrite = TRUE)
+
+
 ```
 
 The two main functions in tidycensus are `get_decennial`, which retrieves data from the 2000 and 2010 Censuses (and soon the 2020 Census), and `get_acs`, which pulls data from the American Community Survey, a between-Censuses annual survey that provides estimates, not hard counts, but asks more detailed questions. 
